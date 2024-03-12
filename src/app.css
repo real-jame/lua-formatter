@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.failed-true {
+	background: #fef2f2;
+}
+
+.failed-false {
+	background: #f0fdf4;
+}
+
+@media (prefers-color-scheme: dark) {
+	* {
+		color: #eee;
+	}
+
+	.failed-true {
+		background: #7f1d1d;
+	}
+
+	.failed-false {
+		background: #14532d;
+	}
+}
