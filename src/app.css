@@ -3,16 +3,25 @@
 @tailwind utilities;
 
 .failed-true {
-	background: #fef2f2;
+	background: #ef7376;
 }
 
 .failed-false {
-	background: #f0fdf4;
+	background: #4add7f;
+}
+
+body {
+	background-color: #fafafa;
 }
 
 @media (prefers-color-scheme: dark) {
-	* {
+	:root {
+		color-scheme: dark;
+	}
+
+	body {
 		color: #eee;
+		background-color: #27272a;
 	}
 
 	.failed-true {

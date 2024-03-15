@@ -1,3 +1,3 @@
-# Lua formatter
+# [Lua minifier](https://lua.realja.me)
 
-Readme TODO lol
+A simple tool to minify Lua code.
