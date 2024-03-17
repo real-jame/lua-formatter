@@ -1,6 +1,6 @@
 <script lang="ts">
 	//@ts-ignore
-	import luamin from "luamin"; //"lua-format";
+	import luamin from "luamin";
 	import { onMount } from "svelte";
 	import localforage from "localforage";
 
